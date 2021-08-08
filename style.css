@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+form {
+  border: solid black 1px;
+  width: 432px;
+  height: 537px;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+form h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form p {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+form .inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form .inf #name {
+  width: 194px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+form .inf #surname {
+  width: 194px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+form .inf #email, form .inf #password {
+  width: 410px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+form .birth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form .birth input {
+  width: 410px;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+
+form .gender label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  height: 36px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+form .gender label input {
+  margin-left: 5px;
+}
+
+form .gender .genders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form .policy label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+form .policy label input {
+  margin-left: 5px;
+}
+
+form .policy .genders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+form .btn button {
+  width: 232px;
+  height: 36px;
+  margin: 0 auto;
+}
+
+form .acc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form .acc a {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

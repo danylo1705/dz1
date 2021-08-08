@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+form{
+    border: solid black 1px;
+    width: 432px;
+    height: 537px;
+    margin: 0 auto;
+    margin-top: 250px;
+    h1{
+        margin: 0 auto;
+        text-align:center;
+        
+    }
+    p{
+        margin: 0 auto;
+        text-align:center;
+        margin-top: 10px;
+    }
+    .inf{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        #name{
+            width: 194px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        #surname{
+            width: 194px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        #email, #password{
+            width: 410px;
+            height: 40px;
+            margin-top: 15px;
+        }
+    }
+    .birth{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    input{
+            width: 410px;  
+            margin-left: 11px;
+            margin-top: 10px;
+        }
+    }
+    .gender{
+
+        label{
+            display: flex;
+            width: 120px;
+            height: 36px;
+            
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            input{
+                margin-left: 5px;
+            }
+        }
+        .genders{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .policy{
+        display: flex;
+        justify-content: space-around;
+        label{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            input{
+                margin-left: 5px;
+            }
+        }
+        .genders{
+            display: flex;
+            justify-content: space-around;
+        }
+    }.btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    button{
+        width: 232px;
+        height: 36px;
+        margin: 0 auto;
+    }
+    }
+    .acc{
+        display: flex;
+        justify-content: center;
+        a{
+            margin-top: 10px;
+        }
+    }
+}
